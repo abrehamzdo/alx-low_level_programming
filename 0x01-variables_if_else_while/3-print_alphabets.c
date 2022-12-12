@@ -6,12 +6,14 @@
 */
 int main(void)
 {
-int n;
-n = 97;
-while (n <= 122)
+int m, n;
+for (m = 97; m <= 122; m++)
+{
+putchar(m);
+}
+for (n = 65; n <= 90; n++)
 {
 putchar(n);
-n++;
 }
 putchar('\n');
 return (0);
