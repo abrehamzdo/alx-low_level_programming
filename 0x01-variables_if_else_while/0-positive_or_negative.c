@@ -1,13 +1,12 @@
-#include <stdio.h>
+#include <stdio.h>i
 #include <stdlib.h>
 #include <time.h>
 
 
 /**
- * main - main function to generate a random number
+ * main - starting point
  *
  * Return: Always 0 (Success)
- *
  */
 
 int main(void)
@@ -22,11 +21,11 @@ int main(void)
 	}
 	else if (n < 0)
 	{
-		printf("%d is zero\n", n);
+		printf("%d is negative\n", n);
 	}
-	else if (n < 0)
+	else if (n == 0)
 	{
-		printf("% is negative\n", n);
+		printf("% is zero\n", n);
 	}
 	return (0);
 }
