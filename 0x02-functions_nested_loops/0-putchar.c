@@ -1,22 +1,20 @@
-#include "main.h"
-
+int _putchar(char c);
 
 /**
- * main - prints _putchar and a new line
+ * main - Entry point
  *
  * Return: Always 0
- * /
- int main(void)
- {
-       -putchar('_');
-       -putchar('p');
-       -putchar('u');
-       -putchar('t');
-       -putchar('c');
-       -putchar('h');
-       -putchar('a');
-       -putchar('r');
-       -putchar('\n');
-  return (0);
- }
+ */
+int main(void)
+{
+char word[10] = "Holberton";
+int a = 0;
+while (a < 9)
+{
+_putchar(word[a]);
+a++;
+}
+_putchar('\n');
+return (0);
+}
 
