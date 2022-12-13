@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * 3-islower.c - entry point
+ * -islower.c - entry point
  *
  * Return: Always 0
  */
