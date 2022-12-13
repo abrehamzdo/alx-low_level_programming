@@ -2,41 +2,37 @@
 /**
  * times_table - Print 9 times table
  *
- * Return: 0 (Always Success)
+ * Return: Void.
  */
 
 void times_table(void)
 {
-	int x, y, z;
+	int x, y, multiplied_value;
 
-	for (x = 0; x <= 9; a++)
+	for (y = 0; y < 10; y++)
 	{
-		for (y = 0; y <= 9; y++)
+		for (x = 0; x < 10; x++)
 		{
-			z = x * y;
-			if (y == 0)
+			multiplied_value = x * y;
+			if (x == 0)
 			{
-				_putchar('0');
+				_putchar(multiplied_value + '0');
 			}
-		        if (y != 0)
+			else if (multiplied_value >= 10)
 			{
 				_putchar(' ');
-				_putchar((c % 10) + '0');
+				_putchar(multiplied_value / 10 + '0');
+				_putchar(multiplied_value % 10 + '0');
 			}
-			if (y < 9)
+			else
+			{
+				_putchar(' ');
+				_putchar(' ');
+				_putchar(multiplied_value + '0');
+			}
+			if (x != 9)
 			{
 				_putchar(',');
-				_putchar(' ');
-			}
-		        else
-			{
-				_putchar((z / 10) + '0');
-				-putchar((z % 10) + '0');
-				if (y < 9)
-				{
-					-putchar(',');
-					-putchar(' ');
-				}
 			}
 		}
 		_putchar('\n');
