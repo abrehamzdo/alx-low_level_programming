@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main - entry point
+ * main - prints _putchar and a new line
  *
- * Return: Always 0 (Success)
+ * Return: Always 0
  * /
  int main(void)
  {
@@ -15,6 +15,6 @@
        -putchar('a')
        -putchar('r')
        -putchar('\n')
-  return ('0');
+  return (0);
  }
 
