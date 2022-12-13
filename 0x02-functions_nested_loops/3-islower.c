@@ -1,12 +1,14 @@
 #include "main.h"
 
 /**
- * -islower.c - entry point
+ * _islower - check the code for Holberton School students.
  *
- * Return: Always 0
+ * @c:  is a parameter
+ *
+ * Return: Always 0.
  */
 
-int _isalpha(int c);
+int _islower(int c)
 {
 	if (c >= 97 && c <= 122)
 	{
