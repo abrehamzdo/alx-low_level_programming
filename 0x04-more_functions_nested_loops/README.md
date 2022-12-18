@@ -3,9 +3,7 @@
 This is a project from AlX software engineering program. familiarazing students with nested loops in **C language** is the aim of a program.
 
 ## Technologies
-* c files are compiled using gcc 4.8.4
-* c files are written according to the C90 standard
-* Tested on Ubuntu 14.04 LTS
+* All files will be compiled on Ubuntu 20.04 LTS using gcc.
 
 
 ## Files
@@ -24,4 +22,4 @@ All of the following files are programs written in C:
 | '9-fizz_buzz.c' | prints Fizz_Buzz test |
 | '10-print_triangle.c' | prints a triangle |
 | '100-prime_factor.c' | Finds and prints the largest prme factor of the number 612852475143 |
-
+| '101-print_number.c' | prints an integer. |
