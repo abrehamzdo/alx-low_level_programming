@@ -1,1 +1,1 @@
-code which displays weather a number is negative or positive or zero
+C programming projects @"ALX SOFTWARE ENGINEERING COURSE" 
