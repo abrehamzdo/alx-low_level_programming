@@ -1,1 +1,2 @@
-- Hello, world
+start coding with c today
+
