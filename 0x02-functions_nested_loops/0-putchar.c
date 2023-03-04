@@ -2,7 +2,14 @@
 #include"main.h"
 int main(void)
 {
-	printf("_putchar");
-	printf("\n");
+	putchar('_');
+	putchar('p');
+	putchar('u');
+	putchar('t');
+	putchar('c');
+	putchar('h');
+	putchar('a');
+	putchar('r');
+
 	return (0);
 }
